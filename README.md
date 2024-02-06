@@ -16,7 +16,7 @@ Make app "Device owner" via ADB
 ```
 adb shell dpm set-device-owner com.yurpetr.npsapp/com.yurpetr.npsapp.AdminReceiver
 ```
-Remove via 
+Remove "Admin" via 
 ```
 adb shell dpm remove-active-admin com.yurpetr.npsapp/com.yurpetr.npsapp.AdminReceiver
 ```
